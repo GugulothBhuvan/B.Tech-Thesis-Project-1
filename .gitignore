@@ -9,13 +9,26 @@ out/
 dist/
 build/
 
-# Large data files and PDFs
-scraping_data/
+# Large data files and PDFs inside scraping_data
+scraping_data/iitkgp_pages/
+scraping_data/kgp-docs/
+scraping_data/metakgp_pages/
+scraping_data/__pycache__/
+scraping_data/merged_kgpdocs.pdf
+scraping_data/merged_output.txt
+
+# Core KGP-GPT large data paths
 kgpgpt/data/iitkgp_pages/
 kgpgpt/data/kgp-docs/
+
+# General patterns for large files
 *.pdf
 merged_*.pdf
 merged_*.txt
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Environment variables
 .env
@@ -27,4 +40,3 @@ merged_*.txt
 # OS files
 .DS_Store
 Thumbs.db
-
