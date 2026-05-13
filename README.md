@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # KGP GPT - Multi-Agent RAG Chatbot
 
 A sophisticated multi-agent Retrieval-Augmented Generation (RAG) chatbot prototype powered by **Gemini LLM**. This system combines local knowledge retrieval with real-time web search to provide comprehensive, accurate responses.
@@ -318,4 +317,3 @@ For questions and support:
 **Built with ❤️ for the KGP community**
 =======
 # kgpgpt
->>>>>>> d955e4cdb2cc8dfffaf7fccbfc3436dd4649fc0e
